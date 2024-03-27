@@ -1,0 +1,81 @@
+html {
+    font-family: 'Noto Sans JP', sans-serif;
+    background: url(./two-red-hearts-against-red-background.jpg) no-repeat center center/cover;
+    ;
+}
+
+h1 {
+    color: beige;
+    font-size: 50px;
+    display: block;
+    position: absolute;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.buttonGroup {
+    margin-top: 300px;
+
+}
+
+
+button {
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 30px;
+    background-color: cornsilk;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.text {
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+.button_no {
+    right: 30%;
+
+
+
+    border: none;
+    cursor: pointer;
+    transition: no;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20%;
+    background: url(./top-view-lots-pink-hearts.jpg) no-repeat center center/cover;
+    ;
+}
+
+.mod {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 30px;
+    color: rgb(196, 52, 105);
+}
+
+.teddy {
+    margin-left: 200px;
+}
